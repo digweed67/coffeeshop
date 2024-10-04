@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: hsl(25, 100%, 97%, 0.9);
+    background: hsl(0, 100%, 0%);
+    height: 100vh;
+    
+    
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black background with 0.9 opacity */
+    z-index: 1000; /* Makes sure it's on top of other elements */
+    pointer-events: none;
+}
+
+.spacer-div {
+    height: 69px;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 69px; 
+    border-bottom: 1px solid hsl(25, 100%, 97%, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: black;
+
+        
+}
+
+
+
+
+nav img {
+    height: 40px;
+    margin-left: 10px;
+    
+}
+
+.links a {
+    margin-left: 20px; 
+    color: hsl(25, 100%, 97%, 0.9);
+    font-size: 18px; 
+    margin-right: 10px; 
+}
+
+
+header {
+    background-image: url('../img/img-mission-background.webp');
+    background-size: cover;
+    height: 700px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 40px; 
+   
+    
+}
+
+header h2,h3 {
+    text-align: center;
+    background-color: black;
+    margin: 0px; 
+    padding: 10px; 
+    font-size: 26px;
+
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+header h3 {
+    font-size: 20px; 
+}
+
+.tea-month, .tea-month-text {
+    text-align: center;
+    padding: 10px; 
+}
+
+.tea-month {
+    margin-top: 80px;
+    font-size: 26; 
+}
+
+.tea-month-text {
+    margin-bottom: 40px;
+}
+
+.tea-month-container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px; 
+    margin: 40px 100px; 
+    
+
+}
+
+.tea-month-container img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px; 
+    
+    
+    
+}
+
+.tea-month-container h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.locations-title {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.locations-container {
+    background-image: url('../img/locations.png');
+    
+    height: 650px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    align-items: center;
+    margin: 0 40px;
+    
+}
+
+.locations-container h3 {
+    font-size: 24px;
+    padding: 0px;
+
+}
+
+.downtown, .bayside, .oakdale {
+    text-align: center; 
+    line-height: 3;
+    background-color: black;
+    width: 300px;
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+    line-height: 3;
+    font-size: 26;
+}
+
+.copyright {
+    text-align: left;
+}
+
+
+
